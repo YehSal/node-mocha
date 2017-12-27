@@ -1,0 +1,24 @@
+{
+  "name": "node-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YehSal/node-mocha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YehSal/node-mocha/issues"
+  },
+  "homepage": "https://github.com/YehSal/node-mocha#readme",
+  "description": "",
+  "dependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^4.0.1"
+  }
+}
